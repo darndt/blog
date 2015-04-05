@@ -21,9 +21,12 @@ layout: default
       </header>
 
       <div class="excerpt">
-        {{ post.excerpt }}
-
-        <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
+        {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first }}
+          <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
       </div>
       
     </div>
