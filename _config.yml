@@ -37,7 +37,7 @@ theme:
   youtube: 
   
   # Scripts
-  google_analytics: UA-86468-1
+  # google_analytics: UA-86468-1
   disqus_shortname:
   katex: true # Enable if using math markup 
   
