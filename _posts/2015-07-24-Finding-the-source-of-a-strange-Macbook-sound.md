@@ -2,7 +2,6 @@
 layout: post
 title: Finding the Source of a Strange Macbook Sound
 ---
-======================
 For a couple of weeks my MacBook Pro had made intermittant, seemingly random, beeping sounds 
 and I couldn't figure out what program or process was caussing this behavior.  It was driving me nuts!
 
