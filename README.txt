@@ -2,3 +2,5 @@
 
  $ bundle exec jekyll serve
  
+ https://rohanchandra.github.io/project/type/
+ 
