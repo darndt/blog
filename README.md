@@ -2,5 +2,5 @@
 
  $ bundle exec jekyll serve
  
- https://rohanchandra.github.io/project/type/
+ A free and open-source Jekyll theme. Great for blogs and easy to customize https://rohanchandra.github.io/project/type/
  
