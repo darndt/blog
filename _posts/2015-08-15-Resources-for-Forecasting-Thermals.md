@@ -7,7 +7,7 @@ This is a collection of links for forecasting thermals for paragliders.  Based o
 * **Emagrams** (e.g. Payern): old, inprecise, complicated to read ==> don't use anymore, there are more modern tools available
 * The only manual thermal forcast in Switzerland is from [Schaenis Soaring](http://www.schaenis-soaring.ch/wetter/streckenflugempfehlungen/)
 
-##RASP (Regional Atmospheric Soaring Predictor)
+## RASP (Regional Atmospheric Soaring Predictor)
 * John Glending
 * good for outside the Alps
 * use **only** in winter and summer as the partially snowed in landscape in spring and fall messes up the prediction
@@ -17,7 +17,7 @@ This is a collection of links for forecasting thermals for paragliders.  Based o
   * [http://soaringmeteo.ch/](http://soaringmeteo.ch/indexE.html) (free)
   * [http://www.cumulus.it/raspit/](http://www.cumulus.it/raspit/) (small cost)
   
-##Regtherm/Alptherm/Toptherm
+## Regtherm/Alptherm/Toptherm
 * more precise for Alps, **prefer over RASP when in the Alps**
 * uses COSMO-7 model (7km grid)
 * offered by these websites
@@ -28,7 +28,7 @@ This is a collection of links for forecasting thermals for paragliders.  Based o
       * velocity number should be **4 or larger** (4 * 0.5 m/s = 2 m/s), people use this to look at the forecast for their starting position and wait for takeoff until the precise time or temperature when the number is 4 or larger
   * [http://www.meteoschweiz.admin.ch/](http://www.meteoschweiz.admin.ch/)
      
-##Other Stuff
+## Other Stuff
 * [http://www.thermikcheck.ch/](http://www.thermikcheck.ch/) people used this in the old days
 * study pilot tracks at [http://www.xcontest.org](http://www.xcontest.org/world/en/)
 * http://thermal.kk7.ch/ click on "Show Hotspots" and the download hotspot data to vario
