@@ -1,3 +1,5 @@
+# gems: [jekyll-paginate]
+
 # SITE CONFIGURATION
 baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "https://darndt.github.io" # the base hostname & protocol for your site
@@ -52,13 +54,13 @@ theme:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
 
-# PAGINATION
-paginate: 10
-paginate_path: "blog/page:num"
+# # PAGINATION
+# paginate: #10
+# paginate_path: #"blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: :compressed
+# highlighter: rouge
+# sass:
+#   sass_dir: _sass
+#   style: :compressed
