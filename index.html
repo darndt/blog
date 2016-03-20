@@ -1,26 +1,19 @@
---- 
+---
 layout: default
 ---
 
-<div class="home" >
+<div class="home">
 
-  {% if site.theme.header_text %}
-  <div class="call-out">{{ site.theme.header_text }}</div>
-  {% endif %}
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <div class="posts">
-    {% for post in paginator.posts %}
-    <div class="post-teaser">
-    
-      <header>
-        <h1>
+        <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
-        
-        <p class="meta">{{ post.date | date: "%B %-d, %Y" }}</p>
-      </header>
+        </h2>
 
-      <div class="excerpt">
+      <div>
         {% if post.content contains '<!--more-->' %}
           {{ post.content | split:'<!--more-->' | first }}
           <a class="button" href="{{ post.url | prepend: site.baseurl }}">{{ site.theme.str_continue_reading }}</a>
@@ -28,27 +21,10 @@ layout: default
           {{ post.content }}
         {% endif %}
       </div>
-      
-    </div>
+
+
+      </li>
     {% endfor %}
-  </div>
+  </ul>
 
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-  
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      <i class="fa fa-chevron-left"></i> 
-      {{ site.theme.str_prev }}
-    </a>
-    {% endif %}
-
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
-      {{ site.theme.str_next }} 
-      <i class="fa fa-chevron-right"></i>
-    </a>
-    {% endif %}
-  </div>
-  {% endif %}
 </div>
