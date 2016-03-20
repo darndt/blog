@@ -9,7 +9,7 @@
 title: "Daniel Arndt's Blog"
 email: darndt@gmail.com
 description: 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://darndt.github.io" # the base hostname & protocol for your site
 # twitter_username: "daniel_arndt"
 # github_username:  jekyll
